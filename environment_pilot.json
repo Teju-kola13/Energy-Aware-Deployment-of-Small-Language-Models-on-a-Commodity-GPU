@@ -1,0 +1,16 @@
+{
+  "gpu": "Tesla T4",
+  "driver": "580.82.07",
+  "cuda": "13.0",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.21.0",
+  "bitsandbytes": "0.50.2",
+  "datasets": "5.1.0",
+  "python": "3.13.16",
+  "energy_method": "nvml_power_sampling",
+  "idle_power_W": 0.0,
+  "n_prompts": 0,
+  "repeats": 0,
+  "seed": 42,
+  "grid_intensity_g_per_kWh": 700
+}

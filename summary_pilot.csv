@@ -1,0 +1,9 @@
+,,,,J_per_out_token,J_per_out_token,J_per_prompt,J_per_prompt,tokens_per_s,tokens_per_s,avg_power_W,avg_power_W,peak_mem_GB,peak_mem_GB,accuracy,accuracy
+,,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,precision,dataset,batch_size,,,,,,,,,,,,
+TinyLlama-1.1B,fp16,alpaca,1,2.2336,,232.2955,,26.4005,,60.0333,,3.4829,,,
+TinyLlama-1.1B,fp16,alpaca,4,0.5599,,58.2272,,121.5016,,68.4948,,3.4939,,,
+TinyLlama-1.1B,fp16,alpaca,8,0.2851,,29.6491,,238.3906,,68.2069,,3.5143,,,
+TinyLlama-1.1B,fp16,gsm8k,1,2.0491,,395.4695,,28.6324,,59.4738,,3.4967,,0.125,
+TinyLlama-1.1B,fp16,gsm8k,4,0.6175,,119.1704,,108.5324,,67.4011,,3.5255,,0.0,
+TinyLlama-1.1B,fp16,gsm8k,8,0.2876,,57.9546,,229.7968,,66.9367,,3.5867,,0.125,
